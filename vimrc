@@ -21,6 +21,7 @@ filetype plugin indent on    " required
 
 set backspace=indent,eol,start 
 set mouse+=a
+set ttymouse=sgr
 
 " Python indentation
 au BufNewFile,BufRead *.py
@@ -46,4 +47,9 @@ set foldlevel=99
 
 " Set syntax highlighting
 syntax on 
+
+
+" Insanely helpful copy to system keyboard using ''
+vmap '' :w !pbcopy<CR><CR>
+
 
