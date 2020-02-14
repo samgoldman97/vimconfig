@@ -21,7 +21,7 @@ filetype plugin indent on    " required
 
 set backspace=indent,eol,start 
 set mouse+=a
-set ttymouse=sgr
+set ttymouse=xterm2
 
 " Python indentation
 au BufNewFile,BufRead *.py

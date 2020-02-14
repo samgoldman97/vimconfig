@@ -1,1 +1,19 @@
 This is my Vim config.
+
+
+Setup: 
+
+1. Clone this repository    
+2. Replace vimrc with "runtime vimrc"   
+4. Download vundle   
+5. Install plugins    
+
+
+
+Commands:  
+'''  
+git clone git@github.com:samgoldman97/vimconfig.git ~/.vim   
+echo "runtime vimrc" > ~/.vimrc   
+git clone git@github.com:VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim   
+vim +PluginInstall +qall   
+'''
