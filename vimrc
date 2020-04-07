@@ -14,9 +14,24 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Python pep8
 Plugin 'Vimjas/vim-python-pep8-indent'
+" To generate pydocstring
+Plugin 'heavenshell/vim-pydocstring' 
+" Autocompletion
+Plugin 'ajh17/vimcompletesme'
+" Fuzzy file autocomplete
+Plugin 'ctrlpvim/ctrlp.vim'
+
+
+
+autocmd FileType vim let b:vcm_tab_complete = 'vim'
+
 
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+
+let g:pydocstring_formatter = 'numpy'
+
 
 
 set backspace=indent,eol,start 
