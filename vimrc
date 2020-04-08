@@ -30,7 +30,7 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 
-let g:pydocstring_formatter = 'numpy'
+" let g:pydocstring_formatter = 'numpy'
 
 
 
