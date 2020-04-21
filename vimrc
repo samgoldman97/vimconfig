@@ -30,7 +30,7 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 
-let g:pydocstring_formatter = 'numpy'
+let g:pydocstring_formatter = 'google'
 
 
 
@@ -67,4 +67,10 @@ syntax on
 " Insanely helpful copy to system keyboard using ''
 vmap '' :w !pbcopy<CR><CR>
 
+" Add boilerplate 
+if has("autocmd")
+  augroup templates
+    autocmd BufNewFile *.py 0r ~/.vim/templates/skeleton.py
+  augroup END
+endif
 
