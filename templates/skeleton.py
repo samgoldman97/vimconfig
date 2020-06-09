@@ -22,9 +22,9 @@
 
 Long paragraph description of the module belongs here
 
-  Typical usage example:
+    Typical usage example:
 
-  foo = ClassFoo()
-  bar = foo.FunctionBar()
+    foo = ClassFoo()
+    bar = foo.FunctionBar()
 """
 
