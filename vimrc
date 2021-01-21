@@ -21,6 +21,8 @@ Plugin 'ajh17/vimcompletesme'
 " Fuzzy file autocomplete
 Plugin 'ctrlpvim/ctrlp.vim'
 
+" Search entire repos
+Plugin 'dyng/ctrlsf.vim'
 
 
 autocmd FileType vim let b:vcm_tab_complete = 'vim'
