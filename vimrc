@@ -24,6 +24,14 @@ Plugin 'ctrlpvim/ctrlp.vim'
 " Search entire repos
 Plugin 'dyng/ctrlsf.vim'
 
+" Add multiple cursor support
+Plugin 'terryma/vim-multiple-cursors'
+
+" Add surround for brakcet insertion
+Plugin 'tpope/vim-surround'
+
+" Add NERDtree for file browsing
+Plugin 'scrooloose/nerdtree'
 
 autocmd FileType vim let b:vcm_tab_complete = 'vim'
 
