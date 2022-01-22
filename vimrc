@@ -54,8 +54,7 @@ Plugin 'dense-analysis/ale'
 
 " Add tagbar
 Plugin 'preservim/tagbar'
-Plugin 'universal-ctags/ctags'
-Plugin 'ludovicchabant/vim-gutentags'
+" Plugin 'ludovicchabant/vim-gutentags'
 
 autocmd FileType vim let b:vcm_tab_complete = 'vim'
 
