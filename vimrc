@@ -213,7 +213,7 @@ autocmd VimEnter * call StartUp()
 
 " ale
 map <C-e> <Plug>(ale_next_wrap)
-map <C-r> <Plug>(ale_previous_wrap)
+map <C-q> <Plug>(ale_previous_wrap)
 
 " tags
 map <leader>t :TagbarToggle<CR>
