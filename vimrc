@@ -221,4 +221,4 @@ map <leader>t :TagbarToggle<CR>
 " let g:tagbar_use_universal_ctags = 1
 " let g:gutentags_trace = 1
 
-
+let g:AutoPairsShortcutFastWrap = '<C-a>'
