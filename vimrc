@@ -218,6 +218,10 @@ map <C-q> <Plug>(ale_previous_wrap)
 " tags
 map <leader>t :TagbarToggle<CR>
 
+" Add faster save
+nmap <Leader>w :w<CR>
+
+
 " let g:tagbar_use_universal_ctags = 1
 " let g:gutentags_trace = 1
 
