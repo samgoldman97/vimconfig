@@ -220,7 +220,7 @@ map <leader>t :TagbarToggle<CR>
 
 " Add faster save
 nmap <Leader>w :w<CR>
-
+nmap <Leader>q :w<CR>
 
 " let g:tagbar_use_universal_ctags = 1
 " let g:gutentags_trace = 1
