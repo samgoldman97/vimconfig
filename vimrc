@@ -226,3 +226,4 @@ nmap <Leader>q :q<CR>
 " let g:gutentags_trace = 1
 
 let g:AutoPairsShortcutFastWrap = '<C-a>'
+let g:ctrlp_custom_ignore = 'results\|git\|data\|notebooks'
