@@ -229,3 +229,7 @@ let g:AutoPairsShortcutFastWrap = '<C-a>'
 let g:ctrlp_custom_ignore = 'results\|git\|data/raw/\|data/paired_spectra\|data/generative\|data/retrieval_libraries\|data/unpaired_spectra\|notebooks\|__pycache__'
 let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
 "let g:ctrlp_clear_cache_on_exit = 0
+"
+
+" Yaml editing
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
