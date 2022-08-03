@@ -226,7 +226,7 @@ nmap <Leader>q :q<CR>
 " let g:gutentags_trace = 1
 
 let g:AutoPairsShortcutFastWrap = '<C-a>'
-let g:ctrlp_custom_ignore = 'results\|git\|data/raw/\|data/paired_spectra\|data/spec_datasets\|data/generative\|data/retrieval_libraries\|data/unpaired_spectra\|notebooks\|__pycache__'
+let g:ctrlp_custom_ignore = 'results\|git\|data/raw/\|data/paired_spectra\|data/generative\|data/retrieval_libraries\|data/unpaired_spectra\|notebooks\|__pycache__|data/spec_datasets'
 let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
 "let g:ctrlp_clear_cache_on_exit = 0
 "
