@@ -18,6 +18,10 @@ Plugin 'Vimjas/vim-python-pep8-indent'
 " To generate pydocstring
 Plugin 'heavenshell/vim-pydocstring' 
 
+
+" View tables
+Plugin 'chrisbra/csv.vim'
+
 " Autocompletion
 Plugin 'ajh17/vimcompletesme'
 
